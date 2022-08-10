@@ -1,0 +1,13 @@
+version: '2.1'
+volumes:
+    lumeo-data:
+services:
+  lumeo:
+    image: lumeo/gateway-balena-jetson-xavier-nx:0.4.14
+    network_mode: 'host'
+    privileged: true
+    volumes:
+          - 'lumeo-data:/var/lib/lumeo'    
+    labels:
+          io.balena.features.balena-socket: '1'
+
