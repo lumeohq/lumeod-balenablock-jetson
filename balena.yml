@@ -16,8 +16,6 @@ assets:
       url: 'https://assets.lumeo.com/media/logo/lumeo-icon-512.png'
 data:
   applicationEnvironmentVariables:
-    - LUMEO_APP_ID: <your-app-id-from-lumeo-console>
-    - LUMEO_API_KEY: <your-api-key-from-lumeo-console>
   defaultDeviceType: jetson-xavier-nx-devkit
   supportedDeviceTypes:
     - jetson-xavier-nx-devkit
