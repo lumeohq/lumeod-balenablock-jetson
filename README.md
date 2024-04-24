@@ -1,3 +1,12 @@
+# ⚠️ **The Balena support was deprecated** ⚠️
+
+Please check [in our documentation](https://docs.lumeo.com/docs/gateway) the guides to setup Lumeo Gateways for the configuration you desire - cloud, on-prem servers, or edge devices.
+
+This repository is now read-only. 
+
+---------------
+
+
 # Lumeo Gateway Balena Block
 
 > Currently only supports Jetson Xavier NX
